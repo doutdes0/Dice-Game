@@ -1,3 +1,4 @@
+function roll() {
 var n = (Math.floor(Math.random() * 6)) + 1;
 var m = (Math.floor(Math.random() * 6)) + 1;
 var img1 = "images/dice" + n + ".png";
@@ -12,4 +13,5 @@ if (n > m) {
   document.querySelector("h1").innerHTML = "Player 2 Wins!🚩";
 } else {
   document.querySelector("h1").innerHTML = "🚩 Draw! 🚩";
+}
 }
